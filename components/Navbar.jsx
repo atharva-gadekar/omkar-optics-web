@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <h2 className="font-heading font-extrabold text-[28px] text-primary-blue">
+          <h2 className="font-heading font-extrabold text-[28px] text-primary-orange">
             Omkar Optics
           </h2>
         </a>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <a
               key={link.id}
               href={link.url}
-              className="font-body text-[16px] text-text-primary hover:text-primary-blue transition-colors duration-300"
+              className="font-body text-[16px] text-text-primary hover:text-primary-orange transition-colors duration-300"
             >
               {link.title}
             </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
               <a
                 key={link.id}
                 href={link.url}
-                className="font-body text-[16px] text-text-primary hover:text-primary-blue hover:bg-light-grey transition-all duration-300 px-6 py-3"
+                className="font-body text-[16px] text-text-primary hover:text-primary-orange hover:bg-light-grey transition-all duration-300 px-6 py-3"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.title}

@@ -19,9 +19,9 @@ body {
 .hero-gradient {
   background: linear-gradient(
     135deg,
-    #4A90E2 0%,
-    #5BA3F5 50%,
-    #6BB6FF 100%
+    #FF8C42 0%,
+    #FF9A5C 50%,
+    #FFB380 100%
   );
 }
 
@@ -53,7 +53,7 @@ body {
 
 /* Button styles */
 .btn-primary {
-  background-color: #4A90E2;
+  background-color: #FF8C42;
   color: white;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #3A7BC8;
+  background-color: #E67635;
 }
 
 /* Professional overlay for images */

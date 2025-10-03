@@ -10,11 +10,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-blue': '#4A90E2',
+        'primary-orange': '#FF8C42',
+        'dark-orange': '#E67635',
+        'light-orange': '#FFB380',
         'light-grey': '#F5F5F5',
         'medium-grey': '#E0E0E0',
         'dark-grey': '#333333',
-        'warm-beige': '#F5E6D3',
+        'warm-beige': '#FFF5EE',
         'text-primary': '#333333',
         'text-secondary': '#666666',
       },

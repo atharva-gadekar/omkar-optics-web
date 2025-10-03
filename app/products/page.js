@@ -22,7 +22,7 @@ const ProductCard = ({ imgUrl, title, price, category, index }) => (
     </div>
     <div className="p-6">
       <h3 className="font-heading font-semibold text-[18px] text-text-primary mb-2">{title}</h3>
-      <p className="font-body font-bold text-[20px] text-primary-blue">{price}</p>
+      <p className="font-body font-bold text-[20px] text-primary-orange">{price}</p>
     </div>
   </motion.div>
 );
@@ -39,7 +39,7 @@ const ProductsPage = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-blue`}>
+      <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-orange`}>
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -70,7 +70,7 @@ const ProductsPage = () => {
               onClick={() => setActiveFilter('all')}
               className={`px-6 py-3 rounded-full font-body font-semibold transition-all duration-300 ${
                 activeFilter === 'all'
-                  ? 'bg-primary-blue text-white'
+                  ? 'bg-primary-orange text-white'
                   : 'bg-white text-text-primary hover:bg-medium-grey'
               }`}
             >
@@ -82,7 +82,7 @@ const ProductsPage = () => {
                 onClick={() => setActiveFilter(category.id)}
                 className={`px-6 py-3 rounded-full font-body font-semibold transition-all duration-300 ${
                   activeFilter === category.id
-                    ? 'bg-primary-blue text-white'
+                    ? 'bg-primary-orange text-white'
                     : 'bg-white text-text-primary hover:bg-medium-grey'
                 }`}
               >

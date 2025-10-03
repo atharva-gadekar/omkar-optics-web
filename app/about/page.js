@@ -10,7 +10,7 @@ const AboutPage = () => (
     <Navbar />
     
     {/* Hero Section */}
-    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-blue`}>
+    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-orange`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -183,7 +183,7 @@ const AboutPage = () => (
             variants={fadeIn('right', 'spring', 0.2, 0.75)}
             className="flex gap-4"
           >
-            <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white font-bold">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white font-bold">
               1
             </div>
             <div>
@@ -200,7 +200,7 @@ const AboutPage = () => (
             variants={fadeIn('left', 'spring', 0.2, 0.75)}
             className="flex gap-4"
           >
-            <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white font-bold">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white font-bold">
               2
             </div>
             <div>
@@ -217,7 +217,7 @@ const AboutPage = () => (
             variants={fadeIn('right', 'spring', 0.4, 0.75)}
             className="flex gap-4"
           >
-            <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white font-bold">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white font-bold">
               3
             </div>
             <div>
@@ -234,7 +234,7 @@ const AboutPage = () => (
             variants={fadeIn('left', 'spring', 0.4, 0.75)}
             className="flex gap-4"
           >
-            <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white font-bold">
+            <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white font-bold">
               4
             </div>
             <div>

@@ -41,15 +41,15 @@ const Testimonials = () => (
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="text-center mb-12"
+        className="text-center mb-16"
       >
-        <h2 className={`${styles.sectionHeading} mb-4`}>What Our Customers Say</h2>
+        <h2 className={`${styles.sectionHeading} mb-6`}>What Our Customers Say</h2>
         <p className={styles.sectionSubheading}>
           Trusted by hundreds of satisfied customers in Dombivli
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {testimonials.map((testimonial, index) => (
           <TestimonialCard key={testimonial.id} {...testimonial} index={index} />
         ))}

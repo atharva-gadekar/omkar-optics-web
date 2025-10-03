@@ -11,7 +11,7 @@ const ContactPage = () => (
     <Navbar />
     
     {/* Hero Section */}
-    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-blue`}>
+    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-orange`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -51,7 +51,7 @@ const ContactPage = () => (
             <div className="space-y-6">
               {/* Address */}
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white text-[24px]">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white text-[24px]">
                   📍
                 </div>
                 <div>
@@ -66,7 +66,7 @@ const ContactPage = () => (
 
               {/* Phone */}
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white text-[24px]">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white text-[24px]">
                   📞
                 </div>
                 <div>
@@ -75,7 +75,7 @@ const ContactPage = () => (
                   </h3>
                   <a 
                     href={`tel:${contactInfo.phone.replace(/\s/g, '')}`}
-                    className="font-body text-[16px] text-primary-blue hover:underline"
+                    className="font-body text-[16px] text-primary-orange hover:underline"
                   >
                     {contactInfo.phone}
                   </a>
@@ -84,7 +84,7 @@ const ContactPage = () => (
 
               {/* Email */}
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white text-[24px]">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white text-[24px]">
                   ✉️
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const ContactPage = () => (
                   </h3>
                   <a 
                     href={`mailto:${contactInfo.email}`}
-                    className="font-body text-[16px] text-primary-blue hover:underline"
+                    className="font-body text-[16px] text-primary-orange hover:underline"
                   >
                     {contactInfo.email}
                   </a>
@@ -102,7 +102,7 @@ const ContactPage = () => (
 
               {/* Hours */}
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white text-[24px]">
+                <div className="flex-shrink-0 w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white text-[24px]">
                   🕐
                 </div>
                 <div>
@@ -127,7 +127,7 @@ const ContactPage = () => (
                   href="https://facebook.com/omkaroptics" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
+                  className="w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
                 >
                   <img src="/facebook.svg" alt="Facebook" className="w-6 h-6" />
                 </a>
@@ -135,7 +135,7 @@ const ContactPage = () => (
                   href="https://instagram.com/omkaroptics" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
+                  className="w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
                 >
                   <img src="/instagram.svg" alt="Instagram" className="w-6 h-6" />
                 </a>
@@ -143,7 +143,7 @@ const ContactPage = () => (
                   href="https://wa.me/919876543210" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-primary-blue rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
+                  className="w-12 h-12 bg-primary-orange rounded-full flex items-center justify-center text-white hover:bg-opacity-80 transition-all"
                 >
                   <span className="text-[24px]">💬</span>
                 </a>
