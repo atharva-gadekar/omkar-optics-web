@@ -1,19 +1,12 @@
-import Hero from './Hero';
-import About from './About';
-import Explore from './Explore';
-import GetStarted from './GetStarted';
-import WhatsNew from './WhatsNew';
-import World from './World';
-import Insights from './Insights';
-import Feedback from './Feedback';
-
-export {
-  Hero,
-  About,
-  Explore,
-  GetStarted,
-  WhatsNew,
-  World,
-  Insights,
-  Feedback,
-};
+export { default as Hero } from './Hero';
+export { default as OurPromise } from './OurPromise';
+export { default as Products } from './Products';
+export { default as Owner } from './Owner';
+export { default as Testimonials } from './Testimonials';
+export { default as About } from './About';
+export { default as Explore } from './Explore';
+export { default as Feedback } from './Feedback';
+export { default as GetStarted } from './GetStarted';
+export { default as Insights } from './Insights';
+export { default as WhatsNew } from './WhatsNew';
+export { default as World } from './World';

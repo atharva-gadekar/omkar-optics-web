@@ -1,6 +1,6 @@
 const styles = {
   innerWidth: '2xl:max-w-[1280px] w-full',
-  innerWidth2: '2xl:max-w-[2200px] w-full',
+  innerWidth2: '2xl:max-w-[1400px] w-full',
   interWidth: 'lg:w-[80%] w-[100%]',
 
   paddings: 'sm:p-16 xs:p-8 px-6 py-12',
@@ -12,13 +12,25 @@ const styles = {
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
-  navPadding: 'pt-[98px]',
+  navPadding: 'pt-[80px]',
 
   // hero section
   heroHeading:
-      'font-bold lg:text-[114px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
-  heroDText:
-      'md:w-[212px] sm:w-[80px] w-[60px] md:h-[90px] sm:h-[48px] h-[38px] md:border-[18px] sm:border-[8px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
+      'font-heading font-bold lg:text-[64px] md:text-[52px] sm:text-[40px] text-[32px] lg:leading-[72px] md:leading-[60px] sm:leading-[48px] leading-[40px] text-white',
+  heroSubheading:
+      'font-body font-normal lg:text-[24px] md:text-[20px] sm:text-[18px] text-[16px] text-white opacity-90',
+  
+  // section headings
+  sectionHeading:
+      'font-heading font-bold lg:text-[48px] md:text-[40px] sm:text-[32px] text-[28px] text-text-primary',
+  sectionSubheading:
+      'font-body font-normal lg:text-[20px] md:text-[18px] text-[16px] text-text-secondary',
+  
+  // card styles
+  cardHeading:
+      'font-heading font-semibold lg:text-[24px] md:text-[20px] text-[18px] text-text-primary',
+  cardText:
+      'font-body font-normal text-[16px] text-text-secondary',
 };
 
 export default styles;
