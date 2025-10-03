@@ -16,7 +16,7 @@ const Hero = () => (
       {/* Hero Image with Overlay */}
       <div className="relative w-full h-[600px] md:h-[700px]">
         <img
-          src="https://images.unsplash.com/photo-1582142306909-195724d33144?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1456421385613-d0666bb96b78?q=80&w=2074&auto=format&fit=crop"
           alt="Happy customer wearing stylish glasses"
           className="w-full h-full object-cover"
         />
