@@ -1,34 +1,190 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Omkar Optics Website
+
+A modern, professional website for Omkar Optics - Your trusted local optician in Dombivli, India.
+
+## About Omkar Optics
+
+Omkar Optics is a local optical shop dedicated to providing high-quality eyewear and personalized eye care services to the Dombivli community. Led by owner Dhananjay, we pride ourselves on offering:
+
+- **Personalized Service:** Individual attention for every customer
+- **Quality Craftsmanship:** Only the finest frames and lenses
+- **Latest Styles:** Modern and classic eyewear designs
+- **Community Focus:** Your neighborhood vision experts
+
+## Website Features
+
+### Pages
+- **Home:** Hero section, Our Promise, Product Categories, Meet the Owner, Testimonials
+- **About Us:** Company story, mission, and values
+- **Products:** Filterable gallery of Spectacles, Sunglasses, Contact Lenses, and Kids' Eyewear
+- **Our Store & Technology:** Store gallery and services overview
+- **Contact:** Location, hours, contact information with embedded map
+
+### Technical Stack
+- **Framework:** Next.js 13 (App Router)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Fonts:** Montserrat (headings) + Open Sans (body text)
+- **Color Scheme:** Professional blue (#4A90E2), white, light grey, warm beige
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 14+ installed
+- npm or yarn package manager
 
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
+git clone <repository-url>
+cd omkar-optics
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Building for Production
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Customization Guide
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. Replace Placeholder Images
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+All placeholder image paths are documented in `IMAGE_PLACEHOLDERS.md`. Replace these files in the `/public` directory with your actual photos:
 
-## Deploy on Vercel
+- Hero banner
+- Owner photo
+- Product category images
+- Individual product photos
+- Store photos
+- Customer testimonials
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Update Contact Information
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Edit `constants/index.js` to update:
+- Phone number
+- Physical address
+- Email address
+- Business hours
+- Social media links
+- Google Maps embed URL
+
+### 3. Customize Content
+
+Edit the content in:
+- `constants/index.js` - Product info, testimonials, features
+- Section components in `/sections` - Customize text and messaging
+- Page components in `/app` - Update page-specific content
+
+### 4. Color Customization
+
+To change the color scheme, edit:
+- `tailwind.config.js` - Update color definitions
+- `styles/globals.css` - Update gradient styles
+
+### 5. Add Real Products
+
+Update the `productsGallery` array in `constants/index.js` with your actual products, prices, and image paths.
+
+## Project Structure
+
+```
+omkar-optics/
+├── app/                    # Next.js 13 App Router pages
+│   ├── page.js            # Homepage
+│   ├── about/             # About Us page
+│   ├── products/          # Products page
+│   ├── store/             # Store & Technology page
+│   └── contact/           # Contact page
+├── components/            # Reusable components
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   └── ...
+├── sections/              # Page sections
+│   ├── Hero.jsx
+│   ├── OurPromise.jsx
+│   ├── Products.jsx
+│   ├── Owner.jsx
+│   └── Testimonials.jsx
+├── constants/             # Site data and content
+│   └── index.js
+├── styles/                # Global styles and Tailwind
+│   ├── globals.css
+│   └── index.js
+├── public/                # Static assets (images, icons)
+└── utils/                 # Utility functions (animations)
+```
+
+## Key Files to Update
+
+1. **`constants/index.js`** - All site content, products, testimonials, contact info
+2. **`IMAGE_PLACEHOLDERS.md`** - Complete list of images to replace
+3. **`app/head.js`** - SEO meta tags and site title
+4. **`public/`** - All images and assets
+
+## SEO & Performance
+
+- Optimized images (WebP format recommended)
+- Semantic HTML structure
+- Fast loading with Next.js optimization
+- Mobile-responsive design
+- Accessible navigation and content
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import project in Vercel
+3. Deploy with one click
+
+### Other Platforms
+
+- **Netlify:** Connect GitHub repo and deploy
+- **Traditional Hosting:** Run `npm run build` and upload the `.next` folder
+
+## Support & Maintenance
+
+For technical support or questions:
+- Review `IMAGE_PLACEHOLDERS.md` for image requirements
+- Check `constants/index.js` for content updates
+- Ensure all placeholder content is replaced before going live
+
+## License
+
+This project is private and proprietary to Omkar Optics.
+
+## Credits
+
+- Built with Next.js and React
+- Animations by Framer Motion
+- Styled with Tailwind CSS
+- Icons from SVG sources
+
+---
+
+**Omkar Optics** - Clarity in Vision, Quality in Care
+
+Visit us in Dombivli for all your eyewear needs!
