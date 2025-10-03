@@ -27,15 +27,15 @@ const OurPromise = () => (
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="text-center mb-12"
+        className="text-center mb-16"
       >
-        <h2 className={`${styles.sectionHeading} mb-4`}>Our Promise to You</h2>
+        <h2 className={`${styles.sectionHeading} mb-6`}>Our Promise to You</h2>
         <p className={styles.sectionSubheading}>
           Why choose Omkar Optics for your vision needs
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {ourPromises.map((promise, index) => (
           <FeatureCard key={promise.id} {...promise} index={index} />
         ))}

@@ -20,9 +20,8 @@ const Owner = () => (
           className="relative"
         >
           <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden card-shadow">
-            {/* PLACEHOLDER: Replace with actual photo of Dhananjay */}
             <img
-              src="/owner-dhananjay.jpg"
+              src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800&q=80"
               alt="Dhananjay - Owner of Omkar Optics"
               className="w-full h-full object-cover"
             />
@@ -35,11 +34,11 @@ const Owner = () => (
           className="flex flex-col"
         >
           <h2 className={`${styles.sectionHeading} mb-6`}>Meet Dhananjay</h2>
-          <h3 className="font-heading font-semibold text-[24px] text-primary-blue mb-6">
+          <h3 className="font-heading font-semibold text-[24px] text-primary-orange mb-6">
             Owner & Lead Optician
           </h3>
           
-          <div className="space-y-4 font-body text-[16px] text-text-secondary">
+          <div className="space-y-5 font-body text-[16px] md:text-[17px] text-text-secondary leading-relaxed">
             <p>
               "At Omkar Optics, we believe that everyone deserves clear vision and eyewear they love. 
               That's why I personally ensure every customer receives individualized attention and expert guidance."
@@ -50,8 +49,13 @@ const Owner = () => (
               neighborhood vision experts who care about your eye health and satisfaction.
             </p>
             <p>
+              My journey in optometry began with a simple mission: to help people see the world more clearly 
+              while looking their best. Every day, I work alongside my dedicated team to ensure that mission 
+              becomes a reality for each person who walks through our doors.
+            </p>
+            <p>
               Visit us and experience the difference that personalized care makes. I look forward to helping 
-              you find the perfect eyewear solution.
+              you find the perfect eyewear solution that combines style, comfort, and precision.
             </p>
           </div>
 

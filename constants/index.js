@@ -2,25 +2,25 @@
 export const productCategories = [
   {
     id: 'spectacles',
-    imgUrl: '/products/spectacles.jpg', // PLACEHOLDER: Replace with actual spectacles image
+    imgUrl: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800&q=80',
     title: 'Spectacles',
     description: 'Stylish prescription eyewear for perfect vision',
   },
   {
     id: 'sunglasses',
-    imgUrl: '/products/sunglasses.jpg', // PLACEHOLDER: Replace with actual sunglasses image
+    imgUrl: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80',
     title: 'Sunglasses',
     description: 'UV protection with fashion-forward designs',
   },
   {
     id: 'contact-lenses',
-    imgUrl: '/products/contact-lenses.jpg', // PLACEHOLDER: Replace with actual contact lenses image
+    imgUrl: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80',
     title: 'Contact Lenses',
     description: 'Comfortable daily and extended wear options',
   },
   {
     id: 'kids-eyewear',
-    imgUrl: '/products/kids-eyewear.jpg', // PLACEHOLDER: Replace with actual kids eyewear image
+    imgUrl: 'https://images.unsplash.com/photo-1580900468278-89e3c3993f34?w=800&q=80',
     title: "Kids' Eyewear",
     description: 'Durable and fun eyewear for children',
   },
@@ -30,21 +30,21 @@ export const productCategories = [
 export const ourPromises = [
   {
     id: 'personalized-service',
-    icon: '👤', // Can be replaced with an SVG icon
+    icon: '👤',
     title: 'Personalized Service',
-    description: 'Individual attention from our owner Dhananjay, ensuring you get the perfect eyewear solution for your needs.',
+    description: 'Individual attention from our experienced opticians, ensuring you get the perfect eyewear solution tailored to your unique needs, lifestyle, and face shape.',
   },
   {
     id: 'quality-craftsmanship',
-    icon: '⭐', // Can be replaced with an SVG icon
+    icon: '⭐',
     title: 'Quality Craftsmanship',
-    description: 'Only the finest frames and lenses from trusted manufacturers, ensuring durability and clarity.',
+    description: 'Only the finest frames and lenses from trusted international manufacturers, ensuring exceptional durability, crystal-clear clarity, and long-lasting comfort.',
   },
   {
     id: 'latest-styles',
-    icon: '👓', // Can be replaced with an SVG icon
+    icon: '👓',
     title: 'Latest Styles',
-    description: 'Stay fashionable with our curated collection of modern and classic eyewear designs.',
+    description: 'Stay fashionable with our curated collection of modern and classic eyewear designs from leading brands, updated regularly with the latest trends.',
   },
 ];
 
@@ -53,21 +53,21 @@ export const testimonials = [
   {
     id: 'testimonial-1',
     name: 'Priya Sharma',
-    image: '/testimonials/customer-1.jpg', // PLACEHOLDER: Replace with actual customer photo
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80',
     rating: 5,
     text: 'Excellent service! Dhananjay helped me find the perfect frames that suit my face. The quality is outstanding and prices are very reasonable.',
   },
   {
     id: 'testimonial-2',
     name: 'Rajesh Patel',
-    image: '/testimonials/customer-2.jpg', // PLACEHOLDER: Replace with actual customer photo
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80',
     rating: 5,
     text: 'Been coming to Omkar Optics for 5 years now. Always receive warm welcome and professional eye care. Highly recommend to everyone in Dombivli!',
   },
   {
     id: 'testimonial-3',
     name: 'Anjali Desai',
-    image: '/testimonials/customer-3.jpg', // PLACEHOLDER: Replace with actual customer photo
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80',
     rating: 5,
     text: 'Great collection of sunglasses and spectacles. The staff is knowledgeable and patient. They take time to understand your needs.',
   },

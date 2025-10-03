@@ -38,15 +38,15 @@ const Products = () => (
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="text-center mb-12"
+        className="text-center mb-16"
       >
-        <h2 className={`${styles.sectionHeading} mb-4`}>Our Product Categories</h2>
+        <h2 className={`${styles.sectionHeading} mb-6`}>Our Product Categories</h2>
         <p className={styles.sectionSubheading}>
           Explore our wide range of eyewear solutions
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {productCategories.map((category, index) => (
           <a key={category.id} href="/products">
             <ProductCard {...category} index={index} />

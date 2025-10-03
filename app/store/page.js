@@ -33,7 +33,7 @@ const StorePage = () => (
     <Navbar />
     
     {/* Hero Section */}
-    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-blue`}>
+    <section className={`${styles.paddings} ${styles.navPadding} relative bg-primary-orange`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"

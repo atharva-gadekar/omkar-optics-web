@@ -50,8 +50,8 @@ const Footer = () => (
           </h4>
           <div className="space-y-2 font-body text-[14px] text-text-secondary">
             <p>{contactInfo.address}</p>
-            <p>Phone: <a href={`tel:${contactInfo.phone.replace(/\s/g, '')}`} className="hover:text-primary-blue">{contactInfo.phone}</a></p>
-            <p>Email: <a href={`mailto:${contactInfo.email}`} className="hover:text-primary-blue">{contactInfo.email}</a></p>
+            <p>Phone: <a href={`tel:${contactInfo.phone.replace(/\s/g, '')}`} className="hover:text-primary-orange">{contactInfo.phone}</a></p>
+            <p>Email: <a href={`mailto:${contactInfo.email}`} className="hover:text-primary-orange">{contactInfo.email}</a></p>
           </div>
         </div>
 
